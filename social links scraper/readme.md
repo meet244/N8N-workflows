@@ -1,6 +1,6 @@
 # 🌐 Website & Social Media Scraper
 
-![Automation Workflow](./your-image-file-name.png)
+<img width="1362" height="411" alt="image" src="https://github.com/user-attachments/assets/7690d946-da1d-4422-bcdd-8a930f6beddc" />
 
 This automation scrapes company data from websites and social media links (like Facebook, Instagram, etc.) listed in a Google Sheet. If only the website is available, it discovers and scrapes social media links too. Built using **n8n** and custom **Python Playwright** code for deep scraping.
 
