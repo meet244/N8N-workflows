@@ -1,16 +1,16 @@
-# 🚀 My N8N Workflows 🚀
+# 🧠 AI Automation Projects by [Meet Patel](https://www.linkedin.com/in/meet-patel-90416b226/)
 
-This repository houses a variety of n8n automation flows I've crafted for different purposes. My aim is to share these handy automations and perhaps inspire some of your own!
+- 🟢 [**Simple WhatsApp Agent**](./Simple%20WhatsApp%20Agent.md)  
+  ⚙️ A basic, functional WhatsApp agent for automated replies and simple workflows.
 
----
+- 🔵 [**Complex WhatsApp Agent**](./Complex-whatsapp-agent.md)  
+  🧩 A more advanced WhatsApp agent capable of handling images 🖼️, audio 🎧, structured workflows 🔄, and integrations 🔌.
 
-## ✨ My N8N Workflows ✨
+- ✉️ [**Personalized Icebreaker Generator**](./Personalized%20Icebreaker%20Generator.md)  
+  💬 Automatically generate tailored icebreakers for outbound messaging using AI and profile scraping 🕵️.
 
-Explore the unique automations I've built. Click on a workflow to dive into its details!
+- 🟨 [**YellowPages Lead Extractor**](./Yellowpages-leads.md)  
+  📇 Extract business leads from YellowPages to power your outreach efforts 📤.
 
-| Workflow Name                     | Description                                    | Link                                                      |
-| :-------------------------------- | :--------------------------------------------- | :-------------------------------------------------------- |
-| 💬 **Simple WhatsApp Agent** | A straightforward workflow for a basic WhatsApp bot.  | [View Workflow](Simple%20WhatsApp%20Agent.md)             |
-| 🧊 **Personalized Icebreaker Gen** | Generate custom icebreakers to start conversations! | [View Workflow](Personalized%20Icebreaker%20Generator.md) |
-| 🔗 **Social Links Scraper** | Efficiently scrape social media links from various sources. | [View Workflow](social%20links%20scraper/)                |
-| 💡 **Yellowpages Leads** | Automate the process of extracting leads from Yellowpages.  | [View Workflow](Yellowpages-leads.md)                     |
+- 🔗 [**Social Links Scraper Folder**](./social%20links%20scraper/)  
+  🧲 Tools for scraping social profile links (LinkedIn, Instagram, etc.) from various sources.
