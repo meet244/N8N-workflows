@@ -2,40 +2,44 @@
 
 <img width="1362" height="411" alt="image" src="https://github.com/user-attachments/assets/7690d946-da1d-4422-bcdd-8a930f6beddc" />
 
-This automation scrapes company data from websites and social media links (like Facebook, Instagram, etc.) listed in a Google Sheet. If only the website is available, it discovers and scrapes social media links too. Built using **n8n** and custom **Python Playwright** code for deep scraping.
+This automation scrapes company data from websites and social media links (like Facebook, Instagram, etc.) listed in a Google Sheet.  
+If only the website is available, it automatically discovers social links, visits them, and scrapes **emails, mobile numbers**, and more.
+
+Built using **n8n** for automation and **Python + Playwright** for advanced scraping.
 
 ---
 
 ## 🔁 What It Does
 
 1. **Start** – Trigger manually via “Test Workflow”.
-2. **Read from Google Sheets** – Imports website/Facebook links.
-3. **Filter** – Keeps only the unprocessed or valid rows.
-4. **Loop** – Processes each row one-by-one using a queue system.
-5. **Scrape** – Uses a custom API (running locally with Playwright) to:
-   - Visit websites and collect social media links
-   - Visit Facebook/Instagram pages and collect data like:
-     - Email addresses
-     - Phone numbers
-     - Other available contact info
-6. **Update Sheet** – Writes enriched data back to Google Sheets.
+2. **Read from Google Sheets** – Loads website/Facebook URLs.
+3. **Filter** – Keeps only unprocessed or valid rows.
+4. **Loop** – Processes each record sequentially.
+5. **Scrape** – Uses a Python scraper to:
+   - Visit websites and extract social media links (Facebook, Instagram, etc.)
+   - Visit those social links and extract:
+     - **Emails**
+     - **Phone/Mobile numbers**
+     - Any other visible contact info
+6. **Update Sheet** – Enriches the original Google Sheet with scraped details.
 
 ---
 
 ## 🧰 Tech Stack
 
-- **n8n** – Automation platform for orchestrating scraping
-- **Google Sheets** – For input and output
-- **Python + Playwright** – Custom scraper code
-- **HTTP API** – Python script runs on `http://127.0.0.1:8000/scrape`
+- **n8n** – Automation and workflow orchestration  
+- **Google Sheets** – Used as the data source and output destination  
+- **Python + Playwright** – Headless browser scraping for dynamic websites  
+- **HTTP API** – The Python script exposes a local API at `http://127.0.0.1:8000/scrape`
 
 ---
 
 ## 🧠 Example Use Cases
 
-- Enrich lead lists with missing contact info  
-- Find social links from company websites  
-- Scrape emails and phone numbers from Facebook/Insta pages
+- Enrich CSV lead lists with contact details  
+- Find missing Facebook/Instagram links for businesses  
+- Extract **emails and mobile numbers** from Facebook pages  
+- Build a richer outreach dataset
 
 ---
 
@@ -44,7 +48,7 @@ This automation scrapes company data from websites and social media links (like 
 ```bash
 social-links-scraper/
 │
-├── Scrape_Details.json                    # n8n workflow file
-├── app.py                   # Python script for scraping
-├── requirements.txt                  # Python dependencies
-└── README.md                          # (this file)
+├── Scrape_Details.json        # n8n workflow file
+├── app.py                     # Python script for scraping (Playwright)
+├── requirements.txt           # Python dependencies
+└── README.md                  # This file
