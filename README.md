@@ -1,34 +1,45 @@
 # 🧠 AI Automation Projects by [Meet Patel](https://www.linkedin.com/in/meet-patel-90416b226/)
 
-* 🟢 [**Simple WhatsApp Agent**](./Simple%20WhatsApp%20Agent.md)
-  ⚙️ A basic, functional WhatsApp agent for automated replies and simple workflows.
+Snapshot updated from the latest image you provided — here’s the current file-based index (relative links) reflecting the exact filenames shown.
 
-* 🔵 [**Complex WhatsApp Agent**](./Complex-whatsapp-agent.md)
-  🧩 Handles images 🖼️, audio 🎧, structured workflows 🔄, and third-party integrations 🔌.
+* 🟢 [**social links scraper/**](./social%20links%20scraper/)
+  🧲 Folder with tools for scraping social profile links (LinkedIn, Instagram, etc.).
 
-* ✉️ [**Personalized Icebreaker Generator**](./Personalized%20Icebreaker%20Generator.md)
-  💬 Generates tailored icebreakers for outreach using AI + profile scraping 🕵️.
+* 🟣 [**Blogs Generator automation.md**](./Blogs%20Generator%20automation.md)
+  ✍️ Automation for generating blog posts.
 
-* 📇 [**LeadGen Outreach**](./LeadGen%20Outreach.md)
-  🚀 Automates lead generation campaigns for scalable prospecting.
+* 🔵 [**Complex-whatsapp-agent.md**](./Complex-whatsapp-agent.md)
+  🧩 Advanced WhatsApp agent (images, audio, structured workflows, integrations).
 
-* 💼 [**LinkedIn Job Search Workflow**](./Linkedin%20Job%20Search%20workflow.md)
-  🔎 Helps automate LinkedIn job searches and application tracking.
+* ✉️ [**LeadGen Outreach.md**](./LeadGen%20Outreach.md)
+  📤 Templates & flows for outreach sequences and lead generation.
 
-* 📑 [**Proposal Generator**](./Proposal%20generator.md)
-  ✍️ Auto-generates client proposals based on inputs and templates.
+* 🔗 [**Linkedin Job Search workflow.md**](./Linkedin%20Job%20Search%20workflow.md)
+  🔎 LinkedIn job-search automation and workflow.
 
-* 🟨 [**YellowPages Lead Extractor**](./Yellowpages-leads.md)
-  🧲 Extracts business leads from YellowPages to power outreach.
+* 💬 [**Personalised-icebreaker-generator.md**](./Personalised-icebreaker-generator.md)
+  🤝 Personalized icebreaker generation for outbound messaging (British spelling).
 
-* 🔔 [**Upwork Notifier Automation**](./Upwork%20notifier%20automation.md)
-  📬 Sends instant notifications for new job postings on Upwork.
+* 💬 [**Personalized Icebreaker Generator.md**](./Personalized%20Icebreaker%20Generator.md)
+  🤝 Personalized icebreaker generation (American spelling).
 
-* 📰 [**Blogs Generator Automation**](./Blogs%20Generator%20automation.md)
-  📝 Creates blog drafts automatically for SEO & content marketing.
+* 📝 [**Proposal generator.md**](./Proposal%20generator.md)
+  🧾 Proposal template automation.
 
-* 🗂️ [**Receipt Processing**](./reciept%20processing.md)
-  📊 Automates document/receipt parsing and data extraction.
+* 📚 [**README.md**](./README.md)
+  📌 This index / documentation file.
 
-* 🔗 [**Social Links Scraper**](./social%20links%20scraper/)
-  🌐 Collects LinkedIn, Instagram & other social profile links from sources.
+* 🟢 [**Simple WhatsApp Agent.md**](./Simple%20WhatsApp%20Agent.md)
+  🤖 Basic WhatsApp agent for quick automated replies and simple flows.
+
+* 🔔 [**Upwork notifier automation.md**](./Upwork%20notifier%20automation.md)
+  📣 Automation to notify and track Upwork activity.
+
+* 📇 [**Yellowpages-leads.md**](./Yellowpages-leads.md)
+  🗂️ YellowPages lead extractor for scraping business leads.
+
+* ✳️ [**linkedin content generation automation.md**](./linkedin%20content%20generation%20automation.md)
+  ✍️ Automation for generating LinkedIn content (new file observed in latest snapshot).
+
+* 🧾 [**reciept processing.md**](./reciept%20processing.md)
+  📤 Receipt (spelled “reciept”) processing automation — OCR/transforms.
